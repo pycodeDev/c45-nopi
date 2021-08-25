@@ -49,7 +49,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0"> Get Started</h1>
+            <marquee><h1 class="m-0"> Selamat Datang Di Sistem Klasifikasi</h1></marquee>
           </div><!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
@@ -64,11 +64,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
             <div class="card card-success card-outline">
               <div class="card-body">
-                <h5 class="card-title">Intoduce</h5>
+                <!-- <h5 class="card-title">Intoduce</h5> -->
                 <div class="text-center">
                     <img src="/assets/dist/img/begin.png" width="30%" alt="">
 
-                    <p><b>Selamat datang Di Sistem Klasifikasi Penerima Bantuan Untuk Mendapatkan Rekomendasi Penerima Yang Tepat.</b></p>
+                    <p><b>Selamat datang Di Sistem Klasifikasi Penerima Bantuan Untuk Mendapatkan Rekomendasi Penerima Yang Tepat pada <br/><h4>Kabupaten Rokan Hulu</h4><br/><h5><b>Kecamatan Rokan IV Koto, Desa Cipang Kiri hulu</h5></b></p>
                 </div>
                 
               </div>
@@ -88,7 +88,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; <?php echo date('Y') ?> Made With <i class=" text-danger fa fa-heart"></i>
   </footer>
 </div>
 <!-- ./wrapper -->
@@ -104,10 +104,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </button>
         </div>
         <div class="modal-body">
+            <div class="row mb-2">
+              <div class="col-12 text-center">
+                <img src="/assets/dist/img/AdminLTELogo.png" width="20%"/>
+              </div>
+              <div class="col-12 text-center">
+                KAB. ROKAN HULU
+              </div>
+              <div class="col-12 text-center">
+                KEC ROKAN IV KOTO
+              </div>
+              <div class="col-12 text-center">
+                DESA CIPANG KIRI HULU
+              </div>
+            </div>
             <form action="/" method="post">
             <?php echo csrf_field(); ?>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="username" placeholder="Username">
+                    <input type="text" class="form-control" name="username" placeholder="Username" required>
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-user"></span>
@@ -115,7 +129,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" name="password" placeholder="Password">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-lock"></span>

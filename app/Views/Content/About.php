@@ -24,7 +24,7 @@
                 <div class="text-center">
                     <img src="/assets/dist/img/about.jpeg" width="30%" alt="">
 
-                    <p><b>Selamat datang Di Sistem Klasifikasi Penerima Bantuan Untuk Mendapatkan Rekomendasi Penerima Yang Tepat.</b></p>
+                    <p><b>Selamat datang Di Sistem Klasifikasi Penerima Bantuan Untuk Mendapatkan Rekomendasi Penerima Yang Tepat pada <br/><h4>Kabupaten Rokan Hulu</h4><br/><h5><b>Kecamatan Rokan IV Koto, Desa Cipang Kiri hulu</h5></b></p>
                 </div>
                 
               </div>
