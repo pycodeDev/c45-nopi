@@ -656,7 +656,7 @@ class CrudModel extends Model
 
 			$entropy = $this->entropy($data);
 			$gain = $this->gain($entropy, $data);
-// echo json_encode($data);exit;
+
 			$atr = $gain['instruksi']['atribut'];
 			if (isset($gain['instruksi']['buang'])) {
 				$atr_buang = $gain['instruksi']['buang'];

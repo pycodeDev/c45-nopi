@@ -217,6 +217,26 @@ class Cek extends BaseController
 			array_push($hasil1['hasil_rekom'], "<b>Menjadi Rekomendasi Sebagai Penerima Bantuan Pangan Non Tunai</b>");
 		}
 
+		$data = array(
+			"k1" => $data['k1'],
+			"k2" => $data['k2'],
+			"k3" => $data['k3'],
+			"k4" => $data['k4'],
+			"k5" => $data['k5'],
+			"k6" => $data['k6'],
+			"k7" => $data['k7'],
+			"k8" => $data['k8'],
+			"k9" => $data['k9'],
+			"k10" => $data['k10'],
+			"k11" => $data['k11'],
+			"k12" => $data['k12'],
+			"k13" => $data['k13'],
+			"k14" => $data['k14'],
+			"rekomendasi" => $hasil1['hasil_rekom'][0],
+		);
+		
+		$this->crud->save_data("tb_hasil", $data);
+
 		echo json_encode($hasil1);
 	}
 }
