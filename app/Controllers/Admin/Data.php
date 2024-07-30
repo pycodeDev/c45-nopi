@@ -9,6 +9,7 @@ use PHPExcel_IOFactory;
 
 class Data extends BaseController
 {
+	protected $crud;
 	public function __construct()
 	{
 		$this->crud = new CrudModel();

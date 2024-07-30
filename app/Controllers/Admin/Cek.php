@@ -8,6 +8,34 @@ use App\Models\CrudModel;
 class Cek extends BaseController
 {
 
+	protected $crud;
+	protected $k1;
+	protected $k2;
+	protected $k4;
+	protected $k5;
+	protected $k6;
+	protected $k7;
+	protected $k8;
+	protected $k9;
+	protected $k10;
+	protected $k11;
+	protected $k14;
+
+	protected $jk1;
+	protected $jk2;
+	protected $jk3;
+	protected $jk4;
+	protected $jk5;
+	protected $jk6;
+	protected $jk7;
+	protected $jk8;
+	protected $jk9;
+	protected $jk10;
+	protected $jk11;
+	protected $jk12;
+	protected $jk13;
+	protected $jk14;
+
 	public function __construct()
 	{
 		$this->crud = new CrudModel();
